@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:background="@color/buttonColor"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:hint="enter price"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/firstName"></EditText>
+    <EditText
+        android:background="@color/buttonColor"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:hint="enter name"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/lastName"></EditText>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:id="@+id/imageV"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="10dp"
+        android:src="#DA396D"></ImageView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/selectPic"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+android:background="@color/buttonColorr"
+        android:layout_marginTop="20dp"
+        android:text="select pic.">
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/uploadpic"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@color/buttonColorrr"
+        android:textStyle="bold"
+        android:textSize="24sp"
+
+        android:text="upload">
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/downloadPic"
+        android:textColor="#FFEB3B"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@color/buttonColorrrr"
+        android:text="Show All">
+    </Button>
+
+
+</LinearLayout>

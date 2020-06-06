@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "267426213057",
+    "firebase_url": "https://postonfirebase.firebaseio.com",
+    "project_id": "postonfirebase",
+    "storage_bucket": "postonfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267426213057:android:b70f146d1aee29db7df840",
+        "android_client_info": {
+          "package_name": "com.satyam.postonfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267426213057-crr61lqr1qh07iifab6jsfstdrrmfn8f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.satyam.postonfirebase",
+            "certificate_hash": "8c7ffba7a021c1c0fd9e3d6c021aaca9ffd522a4"
+          }
+        },
+        {
+          "client_id": "267426213057-slq44qi2kjn9756s16enat4o9rucp7cp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGREe6qeN3J9rtfgIkqiVoLIbovYXlOJQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "267426213057-slq44qi2kjn9756s16enat4o9rucp7cp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
